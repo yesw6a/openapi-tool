@@ -35,11 +35,11 @@
     "openapi"
   ],
   "bugs": {
-    "url": "https://github.com/huajiayi/openapi-tool/issues"
+    "url": "https://github.com/yesw6a/openapi-tool/issues"
   },
-  "homepage": "https://github.com/huajiayi/openapi-tool#readme",
+  "homepage": "https://github.com/yesw6a/openapi-tool#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huajiayi/openapi-tool.git"
+    "url": "git+https://github.com/yesw6a/openapi-tool.git"
   }
 }
