@@ -17,7 +17,7 @@ openapi-tool 是一个基于 openapi 的工具，可以通过 swagger 文档自�
 ### 安装
 
 ```
-npm install openapi-tool
+npm install @wuhuanda/openapi-tool
 ```
 
 ### 栗子

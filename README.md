@@ -17,7 +17,7 @@ If you like it, please give me a star. Thanks a lot!
 ### Install
 
 ```
-npm install openapi-tool
+npm install @wuhuanda/openapi-tool
 ```
 
 ### Example
