@@ -27,7 +27,7 @@ npm install @wuhuanda/openapi-tool
 In order to gain the TypeScript typings (for intellisense / autocomplete) while using CommonJS imports with `require()` use the following approach:
 
 ```js
-const OpenApiTool = require('openapi-tool').default;
+const OpenApiTool = require('@wuhuanda/openapi-tool').default;
 ```
 
 **PS: Typing `.default` is merely used to gain the TypeScript typings. Please remove `.default` when you launch the project, otherwise it will throw an error.**
@@ -35,7 +35,7 @@ const OpenApiTool = require('openapi-tool').default;
 #### Usage
 
 ```js
-const OpenApiTool = require('openapi-tool');
+const OpenApiTool = require('@wuhuanda/openapi-tool');
 const { resolve } = require('path');
 
 const url = 'https://gw.alipayobjects.com/os/antfincdn/M%24jrzTTYJN/oneapi.json';

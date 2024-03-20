@@ -1,4 +1,4 @@
-const OpenApiTool = require('openapi-tool');
+const OpenApiTool = require('@wuhuanda/openapi-tool');
 const { resolve } = require('path');
 
 const url = 'http://localhost:11001/api/v1/v3/api-docs';

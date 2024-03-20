@@ -38,7 +38,7 @@ const generateService = async (originalOpenApi: OpenApi, options: ServiceGenerat
 
   const templates = ['umi-request', 'axios'];
   if(!templates.includes(template)) {
-    throw new Error(`oops, there is no template of ${template} so far, you can open an issue at https://github.com/huajiayi/openapi-tool/issues.`);
+    throw new Error(`oops, there is no template of ${template} so far, you can open an issue at https://github.com/yesw6a/openapi-tool/issues.`);
   }
 
   // 如果有format，格式化openapi

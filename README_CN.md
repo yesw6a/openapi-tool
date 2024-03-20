@@ -27,14 +27,14 @@ npm install @wuhuanda/openapi-tool
 为了获得 TypeScript 的类型支持，在使用 `require()` 语句导入依赖时，需要在后边加上 `.default`，像是这样：
 
 ```js
-const OpenApiTool = require('openapi-tool').default;
+const OpenApiTool = require('@wuhuanda/openapi-tool').default;
 ```
 **PS: 输入 `.default` 只是为了获得TypeScript 的类型支持，如果你要启动项目的话，请在启动前删除 `.default`，不然会报错。**
 
 #### 使用方式
 
 ```js
-const OpenApiTool = require('openapi-tool');
+const OpenApiTool = require('@wuhuanda/openapi-tool');
 const { resolve } = require('path');
 
 const url = 'https://gw.alipayobjects.com/os/antfincdn/M%24jrzTTYJN/oneapi.json';
